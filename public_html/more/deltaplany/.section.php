@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Дельтапланы";
+$arDirProperties = Array(
+
+);
+?>

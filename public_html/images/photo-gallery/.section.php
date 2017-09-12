@@ -1,0 +1,3 @@
+<?
+$sSectionName="photo_Gallery";
+?>

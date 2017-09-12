@@ -1,0 +1,231 @@
+/* --- COMMON --- */
+section {
+	input[type=text],
+	input[type=password],
+	textarea {
+		background: #fff;
+		//color: @textColor;
+		/*border: 0 none;
+		border-radius: 2px;
+		font-size: 12px;*/
+		padding: 2px 5px;
+		border: 1px solid @borderColor;
+	}
+	
+	input[type=button],
+	input[type=submit],
+	input[type=reset],
+	button,
+	.pm-button {
+		padding: 4px 10px;
+
+		color: #646566;
+		text-decoration: none;
+		text-transform: lowercase;
+		
+		border: 1px solid #c6c5c6;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    
+    background: rgb(237, 236, 236);
+    background: -moz-linear-gradient(270deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+    background: -webkit-linear-gradient(270deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+    background: -o-linear-gradient(270deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+    background: -ms-linear-gradient(270deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+    background: linear-gradient(180deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+	}
+	
+	button[disabled] {
+		background-color: #CCC;
+	}	
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color:#c2c2c2;}
+input::-moz-placeholder, textarea::-moz-placeholder          {color:#c2c2c2;}/* Firefox 19+ */
+input:-moz-placeholder, textarea:-moz-placeholder           {color:#c2c2c2;}/* Firefox 18- */
+input:-ms-input-placeholder, textarea:-ms-input-placeholder      {color:#c2c2c2;}
+
+.search-form {
+  width: 1005px;
+  height: 30px;
+  padding: 9px 0 0;
+  position:relative;
+  background: url("images/search_bg_.gif") left top repeat-x;
+
+  form {
+    float: right;
+    padding-right: 17px;
+
+    #title-search-input {
+      width: 255px;
+      height: 17px;
+      font-size:12px;
+      background: #fff;
+      border: 1px solid #909090;
+      color:#6b6b6b;
+      position: relative;
+      margin-right: 7px;
+      font-family: @font-family;
+    }
+
+    input[type="submit"] {
+      background: none repeat scroll 0 0 #fbaa2e;
+      border: 1px solid #FFFFFF;
+      border-radius: 0;
+      color: #000;
+      height: 22px;
+      padding: 0;
+      position: relative;
+      text-transform: uppercase;
+      top: -1px;
+      width: 29px;
+    }
+  }
+}
+
+#phone {
+  background: #e8e9eb;
+  border: 1px solid #b3b3b3;
+  padding: 24px 60px 10px;
+  width: 610px;
+
+  p.h2 {
+    text-align: center;
+    color: #2d77a5;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 44px 0;
+  }
+  .ww-grid {
+    margin-bottom: 22px;
+    .input_name {
+      display: none;
+    }
+    span.td-name {
+      color: #000;
+      font-weight: bold;
+      font-size: 15px;
+      display: inline-block;
+      width: 250px;
+    }
+
+    .form-control {
+      width: 314px;
+      padding: 0 20px;
+      background: #fff;
+      border: 1px solid #c1c1c1;
+      height: 24px;
+      color: #575656;
+    }
+
+    .select {
+      width: 356px;
+      height: 24px;
+
+    }
+
+  }
+
+  .prop_43 {
+
+    span.prop_43 {
+      width: 380px;
+    }
+
+    select.select_43 {
+      width: 100px;
+    }
+
+    i {
+      display: inline-block;
+      font-style: normal;
+      line-height: 13px;
+      margin-left: 30px;
+    }
+  }
+
+  input[type="submit"] {
+    background: #8db334 none repeat scroll 0 0;
+    border: 5px solid #e8e9eb;
+    border-radius: 3px;
+    padding: 4px 0;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-size: 17px;
+    margin: 20px auto 10px;
+    width: 156px;
+
+    &:hover {
+      background: #8db334;
+      border: 5px solid #8fbce5;
+    }
+  }
+
+  /* error */
+  .error {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      background: #fcd5d5;
+      border: 1px solid #cc0000;
+    }
+
+    span.prop_44 {
+      color: #cc0000;
+    }
+  }
+
+  /* send-ok */
+  .send-ok {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+
+    p.h2 {
+      color: #2d77a5;
+      font-size: 22px;
+      line-height: 28px;
+      margin: 14px 0 14px;
+      text-align: center;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+  }
+
+}
+
+/* send-ok */
+.send-ok {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+  background: #e8e9eb;
+  padding: 8px 20px 0px;
+
+
+  p.h2 {
+    color: #2d77a5;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 14px 0 14px;
+    text-align: center;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+.ok-size {
+  .fancybox-skin {
+    background: #e8e9eb;
+    border: 1px solid #b3b3b3;
+  }
+}

@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Парамоторы", 
+		"/more/paramotory/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Планеры", 
+		"/more/planery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Тепловые воздушные шары", 
+		"/more/teplovye-vozdushnye-shary/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дельтапланы", 
+		"/more/deltaplany/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Легкомоторные самолеты", 
+		"/more/legkomotornye-samolety/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вертолеты", 
+		"/more/vertolety/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

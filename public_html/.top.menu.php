@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"ÏÎËÅÒÛ", 
+		"/polety/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÎÁÓ×ÅÍÈÅ", 
+		"/obuchenie/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÏÎËÅÒÛ ÍÀ ÄÐÓÃÈÕ ÑËÀ", 
+		"/polety-na-drugikh-sla/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Î ÍÀÑ", 
+		"/o-nas/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÔÎÒÎ", 
+		"/foto/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÍÎÂÎÑÒÈ", 
+		"/novosti/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÑÍÀÐßÆÅÍÈÅ", 
+		"/snaryazhenie/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÊÅÌÏÈÍÃ ", 
+		"/kemping-/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÊÎÍÒÀÊÒÛ", 
+		"/kontakty/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

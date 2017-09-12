@@ -1,0 +1,115 @@
+
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+  ul {
+    width: 20000em;
+    position: relative;
+    /*_list-reset;*/
+  }
+  li {
+    float: left;
+  }
+}
+
+.jcarousel-control-prev, .jcarousel-control-next {
+  width: 25px;
+  height: 34px;
+  position: absolute;
+  top: 5px;
+  cursor: pointer;
+  line-height: 999;
+  background-repeat: no-repeat;
+  border: 1px solid #142630;
+
+  &.inactive {
+    /* 	visibility: hidden;*/
+  }
+}
+
+.jcarousel-control-prev {
+  background-image: url('images/arr_prev.jpg');
+  background-position: left top;
+  left: 25px;
+}
+.jcarousel-control-next {
+  background-image: url('images/arr_next.jpg');
+  background-position: right top;
+  right: 25px;
+}
+.jcarousel-control-prev:hover {
+  background-position: left bottom;
+}
+.jcarousel-control-next:hover {
+  background-position: right bottom;
+}
+.jcarousel-area {
+  position: relative;
+}
+
+
+#fotorama, .fotorama {
+  width: 100%;
+}
+.fotorama__nav-wrap {
+  position: absolute;
+  bottom: 43px;
+ /* height: 100px;*/
+}
+
+#fotorama .fotorama__thumb-border {
+  border-color: #fff;
+}
+
+#fotorama .fotorama__nav--thumbs .fotorama__nav__frame {
+}
+.back-main {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  right: 60px;
+  top: 30px;
+  margin: 0;
+  color: #fff;
+  font-weight: normal;
+  font-family: "CenturyGothicBold", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  z-index: 25;
+  text-shadow: 2px 2px 20px #fff;
+}
+.back {
+  background: url("images/back.png") left center no-repeat;
+  padding-left: 60px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 20;
+  text-decoration: none;
+  color: #fff;
+  line-height: 16px;
+  &:hover {
+    background: url("images/back_.png") left center no-repeat;
+  }
+}
+
+.hidden {
+  background: url("images/hidden.png") left center no-repeat;
+  padding-left: 30px;
+  position: absolute;
+  bottom: 155px;
+  left: 30px;
+  z-index: 20;
+  text-decoration: none;
+  color: #fff;
+  line-height: 12px;
+
+  &:hover {
+    background: url("images/hidden_.png") left center no-repeat;
+  }
+}
+
+.hidden.no_show {
+  bottom: 50px;
+}

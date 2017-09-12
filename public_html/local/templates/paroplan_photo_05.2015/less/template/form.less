@@ -1,0 +1,85 @@
+/* --- COMMON --- */
+section {
+	input[type=text],
+	input[type=password],
+	textarea {
+		background: #fff;
+		//color: @textColor;
+		/*border: 0 none;
+		border-radius: 2px;
+		font-size: 12px;*/
+		padding: 2px 5px;
+		border: 1px solid @borderColor;
+	}
+	
+	input[type=button],
+	input[type=submit],
+	input[type=reset],
+	button,
+	.pm-button {
+		padding: 4px 10px;
+
+		color: #646566;
+		text-decoration: none;
+		text-transform: lowercase;
+		
+		border: 1px solid #c6c5c6;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    
+    background: rgb(237, 236, 236);
+    background: -moz-linear-gradient(270deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+    background: -webkit-linear-gradient(270deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+    background: -o-linear-gradient(270deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+    background: -ms-linear-gradient(270deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+    background: linear-gradient(180deg, rgb(237, 236, 236) 5%, rgb(196, 196, 196) 100%);
+	}
+	
+	button[disabled] {
+		background-color: #CCC;
+	}	
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color:#c2c2c2;}
+input::-moz-placeholder, textarea::-moz-placeholder          {color:#c2c2c2;}/* Firefox 19+ */
+input:-moz-placeholder, textarea:-moz-placeholder           {color:#c2c2c2;}/* Firefox 18- */
+input:-ms-input-placeholder, textarea:-ms-input-placeholder      {color:#c2c2c2;}
+
+.search-form {
+  width: 1005px;
+  height: 30px;
+  padding: 9px 0 0;
+  position:relative;
+  background: url("images/search_bg_.gif") left top repeat-x;
+
+  form {
+    float: right;
+    padding-right: 17px;
+
+    #title-search-input {
+      width: 255px;
+      height: 17px;
+      font-size:12px;
+      background: #fff;
+      border: 1px solid #909090;
+      color:#6b6b6b;
+      position: relative;
+      margin-right: 7px;
+      font-family: @font-family;
+    }
+
+    input[type="submit"] {
+      background: none repeat scroll 0 0 #fbaa2e;
+      border: 1px solid #FFFFFF;
+      border-radius: 0;
+      color: #000;
+      height: 22px;
+      padding: 0;
+      position: relative;
+      text-transform: uppercase;
+      top: -1px;
+      width: 29px;
+    }
+  }
+}

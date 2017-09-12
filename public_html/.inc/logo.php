@@ -1,0 +1,1 @@
+<img width="207" src="/local/templates/paroplan_05.2015/images/logo_web.png" height="100" alt="">

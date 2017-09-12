@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Парамоторы";
+$arDirProperties = Array(
+
+);
+?>
